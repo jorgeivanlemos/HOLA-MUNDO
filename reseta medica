@@ -1,0 +1,94 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyO/EhtCTzTpXu+TczN1YGGd",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/jorgeivanlemos/HOLA-MUNDO/blob/main/reseta%20medica\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd"
+      ],
+      "metadata": {
+        "id": "UhFhvkeMkCbK"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "datos=\"https://www.google.com/url?q=https://drive.google.com/file/d/1R2nwhx6Y0klHU9jPuD1bNAq6ISS0Ozau/view?usp%3Dsharing&sa=D&source=editors&ust=1643583418048616&usg=AOvVaw264p2JleGA73DVFKl5Atis\""
+      ],
+      "metadata": {
+        "id": "3Mmul20Okgvq"
+      },
+      "execution_count": 12,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "csv \n",
+        "0 Paciente\tPresion Arterial\tUrea en Sangre\tGota\tHipotiroidismo\tTratamiento\n",
+        "1\tAlta\tAlta\tTRUE\tFALSE\tFALSE\n",
+        "2\tAlta\tAlta\tTRUE\tTRUE\tFALSE\n",
+        "3\tNormal\tAlta\tTRUE\tFALSE\tTRUE\n",
+        "4\tBaja\tNormal\tTRUE\tFALSE\tTRUE\n",
+        "5\tBaja\tBaja\tNo\tFALSE\tSí\n",
+        "6\tBaja\tBaja\tFALSE\tTRUE\tFALSE\n",
+        "7\tNormal\tBaja\tFALSE\tTRUE\tSi\n",
+        "8\tAlta\tNormal\tSí\tNo\tNo\n",
+        "9\tAlta\tNormal\tFALSE\tFALSE\tTRUE\n",
+        "10\tBaja\tNormal\tFALSE\tFALSE\tTRUE\n",
+        "11\tAlta\tNormal\tFALSE\tTRUE\tTRUE\n",
+        "12\tNormal\tNormal\tTRUE\tTRUE\tTRUE\n",
+        "13\tNormal\tAlta\tFALSE\tFALSE\tTRUE\n",
+        "14\tBaja\tNormal\tTRUE\tTRUE\tFALSE\n",
+        "print (csv)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 130
+        },
+        "id": "FFdSa8qxfCWT",
+        "outputId": "371be0a6-e81b-4e8c-e87d-1ca1d4860234"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-11-fa9b57545c0a>\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    0 Paciente\tPresion Arterial\tUrea en Sangre\tGota\tHipotiroidismo\tTratamiento\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
